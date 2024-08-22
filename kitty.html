@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./kitty-style.css">
+</head>
+<body>
+    <audio id="sound" src="./cat-sound4.mp3"></audio>
+    <div class="box">
+        <header>
+            <ul>
+                <li>Image</li>
+                <li>Sound</li>
+                <li >Videos</li>
+                <li>Toys</li>
+                <li>Gifts</li>
+            </ul>
+        </header>
+        <h1>Kitty</h1>
+        <img src="./photo13093431669-01.png" alt="cant load" class="img1" id="clickable-image">
+        <img src="./photo13093429571.png" alt="cant load" class="img2">
+        <p>Cats often evoke a sense of calm and comfort in their presence. Their soft purring and gentle nuzzling can be soothing, creating an atmosphere of peace. Observing a cat’s graceful movements and playful antics can bring joy and relaxation, making them cherished companions. The quiet and independent nature of cats often contrasts with their warm, affectionate gestures, which can be deeply comforting and fulfilling for those who share their lives with them.</p>
+        
+    </div>
+    <script>
+        document.getElementById('clickable-image').addEventListener('click', function() {
+            document.getElementById('sound').play();
+        });
+    </script>
+    
+</body>
+</html>
